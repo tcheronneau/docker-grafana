@@ -1,4 +1,4 @@
-FROM bouille57/base:latest
+FROM bouille57/basebian:latest
 MAINTAINER Thomas <thomas@mcth.fr>
 RUN apt-get install curl -y 
 RUN echo "deb https://packagecloud.io/grafana/testing/debian/ wheezy main" > /etc/apt/sources.list.d/grafana.list
